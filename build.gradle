@@ -16,6 +16,10 @@ repositories {
 }
 
 dependencies {
+	// MVC 사용 위한 라이브러리
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	// Redis 라이브러리
+	implementation 'org.springframework.boot:spring-boot-starter-data-redis'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
